@@ -1,0 +1,368 @@
+<html>
+<head>
+
+  <title> Services </title>
+  <style>
+  body {
+	font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+	color: #333;
+    background-color:#f4f4f4;
+    text-align:center;
+    height:100vh;
+    
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    height: 90px;
+    padding: 0px;
+    margin: 0px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 28px;
+    padding-top: 15px;
+    letter-spacing:10px;
+    text-spacing:15px;
+}
+
+
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    
+    color: rgba(255, 0, 0, 0.573);
+    background-color: rgba(163, 154, 153, 0.429);
+}
+
+.Service {
+   background-color: white;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+	text-align:left;
+	justify-content:left;
+
+}
+ 
+.Service_Items {
+            width: 50%;
+            padding: 2em;
+            box-sizing: border-box;
+            border: 0px solid #ddd;
+            margin-bottom: 0;
+            position: relative;
+
+
+}
+ 
+.Service_Items button {
+    background-color: yellow;
+    color: #000;
+    border-radius: 30px;
+    border: none;
+    position: absolute;
+    right:10px;
+    bottom: 10px;
+
+}
+
+.Service_Items img {
+    height: 70px;
+    width: 70px;
+    border: 2px solid yellow;
+}
+
+	
+.Service_Items h2 {
+    font-size:1.5em;
+    margin:10px 0;
+	
+}
+
+.Service_Items p {
+    font-size:1em;
+    margin:10px o;
+}	
+	
+	
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.944); 
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    margin-top: 50px;
+    
+}
+
+.footer .footer-section {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 2px;
+}
+
+.footer .footer-section div {
+    max-width: 300px;
+}
+
+.footer .footer-section img {
+    width: 100px;
+    border: 2px solid red;
+    border-radius: 50px;
+}
+
+.footer .footer-section p {
+    font-size: 14px;
+    margin: 10px 0 0 0;
+}
+
+.footer .footer-section p strong {
+    font-size: 16px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.p1 ul {
+    list-style: none;
+    padding-left: 0;
+	
+}
+.p1 a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+	
+}
+ 
+.p1 a:hover {
+    text-decoration: underline;
+}
+
+
+
+.copy{
+  color: white;
+  background-color: grey;
+  background-size: cover;
+  padding:6px;
+  text-align: center;
+  bottom: 0px;
+  top:0px;
+}
+
+
+.info-item{
+text-align:left;
+margin-left:10px;
+margin-top:5px;
+display:flex;
+
+
+}
+.info-item p{
+text-align:center;
+margin-bottom:5px;
+margin-right:5px;
+
+}
+
+.location
+{
+background:url('css-sprite-combined.png') -10px -0px;
+width:96px;
+height:96px;
+zoom: 30%;
+display:inline-block;
+}
+
+.phone
+{
+background:url('css-sprite-combined.png') -116px -0px;
+width:96px;
+height:96px;
+zoom: 30%;
+display:inline-block;
+}
+
+.email
+{
+background:url('css-sprite-combined.png') -222px -0px;
+width:96px;
+height:96px;
+zoom: 30%;
+display:inline-block;
+}
+
+
+
+   </style>
+</head>
+  <body>
+   <div>
+        <img src="dog_foot.png" alt="Pet Care Logo" style="position: absolute;left: 0; height: 40px;"> 
+        <img src="dog_foot.png" alt="Pet Care Logo" style="height: 40px; position: absolute; right: 0;">
+    </div>
+  
+  <header>
+   <h1 class="hd">PET CARE</h1>
+
+    
+    <nav>
+        <ul>
+            <li><a href="#Home">HOME</a></li>
+            <li><a href="#Service">SERVICES</a></li>
+            <li><a href="#About Us">ABOUT</a></li>
+            <li><a href="#Reviews">REVIEWS</a></li>
+        </ul>
+    </nav>
+	 
+	</header>
+
+	<div>
+	 
+	    <div class=" Service">
+		
+		    <div class=" Service_Items">
+		 
+		   <img src ="dog_bone.jpg" alt="Healthy and Tasty Treats">
+             <h2>Healthy and Tasty Treats</h2>
+              <p>With Dog Snack Brands like Superbite, Gnawlers, Jerhigh your dog can have nutritive binge moments. You can choose among Dog Snack Bacon or Hotdog Bar Chicken when you seek snacks of animal origin. Among products of vegetable and animal origin, you can choose among Dog Snack Spinach, Dog Snack Carrot, Fruity Stick and so on and enjoy up to 30% discounts on the same.</p>
+			   <a href="Dog Hostel.html"><button>MORE</button></a>
+
+	   </div>
+	
+	
+	
+	    <div class="Service_Items">
+		   
+           <img src ="dog_toys.PNG"  alt="Dog Toys">
+             <h2>Dog Toys </h2>	
+              <p>While you buy dog toys online with us, we take care that the toy has rounded edges ideal for small breeds and pups. They all are made from animal safe, food grade and virgin plastic. So, have some fun with your Dog and give him a Happier Playtime. Buy Chew Bones, Rubber Balls, Rope Toys and many more items at huge discounts.</p>
+			   <a href="Dog Hostel.html"><button>MORE</button></a>
+		</div>
+		
+		</div>
+	
+		<div class="Service">
+		    <div class="Service_Items">
+		     <img src ="dog_collars.jpg"  alt="Dog Collars and Leashes">
+              <h2> Collars and Leashes</h2>	
+			   <p>Get exciting offers on Dog Collar Charms, Leashes, Muzzles, Harnesses, etc. on Top Brands + Warranty! and make your Dog's training happy. For your bulldog or Rottweiler we have metal chains with grips, collars with pointed studs and extra-large choke chains. For your beagle or Pomeranian we have printed collars and nylon ropes. With attractive prints and designer motifs there is a lot when you search for the best.</p>
+		        <a href="Dog Hostel.html"><button>MORE</button></a>
+		</div>	
+		
+		
+		
+		<div class="Service_Items">
+		    <img src ="dog_supplements.PNG"  alt="Supplements and Shampoos">
+            <h2>Supplements and Shampoos</h2>
+              <p>Keep your pup in shape with healthy dog Supplements. Dog Supplements come in many forms including soft chews and tablets. Give your furry friends the vitamins they need to stay Happy and Healthy. We also have a variety of pet shampoos for different breeds and small pups including tick shampoos on upto 40% discount under Best Brands. Go, check Out Now!</p>
+	            <a href="Dog Hostel.html"><button>MORE</button></a>
+	   </div>
+		
+	  </div>
+  	</div>
+	
+  
+  <div class="footer">
+    <div class="footer-section">
+        <div>
+            <img src="pet-care.png" alt="Pet Care">
+            <p><strong>P</strong>ets are humanizing. They remind us we have an obligation and responsibility to preserve and nurture and care for all life.</p>
+        </div>
+       
+         <div class="p1">
+            <h3>Have A Question</h3>
+			<ul>
+            <li><a href="Service.html">Services</a></li>
+            <li><a href="Dog Hostel.html">Dog Hostel</a></li>
+            <li><a href="About Us.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+
+
+        <div>
+            
+        <h3>Information</h3>
+                <div class="info-item">
+                    <div class="location"></div><p style="margin-top:10px; margin-right:25px">Pet Care (Pvt) Ltd, 123, 1st Floor, Dalugama, Kelaniya.</p>
+                </div>
+				<br>
+                <div class="info-item">
+                    <div class="phone"></div><p style="margin-top:10px; margin-left:10px">Telephone: 0112 999999 <br>Fax: 0094 112 621 382</p>
+             
+                </div>
+                <br>
+                <div class="info-item">
+                    <div class="email"></div> <p style="margin-top:10px; margin-left:10px">Email: info@petcare.com</p>
+                   
+                </div>
+                
+        </div>        
+        <div>
+
+            <h3>Visit Us</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31692.835058117015!2d79.91207407621102!3d6.977763773318933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2587c5baf676f%3A0x6f8043deac1a29e7!2sKelaniya!5e0!3m2!1sen!2slk!4v1626625691631!5m2!1sen!2slk" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>    
+        </div>
+        
+       
+   </div>
+    <div class="copy">
+    <p >&copy;2023 Pet Care 11600. Designed by Team PETCARE</p>
+    </div>
+
+
+</body>
+</html>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 

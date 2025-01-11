@@ -1,0 +1,349 @@
+<html>
+<head>
+    <style>
+	body {
+    font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    height: 90px;
+    
+    padding: 0px;
+    margin: 0px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 28px;
+    padding-top: 15px;
+    letter-spacing:10px;
+    text-spacing:15px;
+}
+
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    
+    color: rgba(255, 0, 0, 0.573);
+    background-color: rgba(163, 154, 153, 0.429);
+	border-radius:5px;
+}
+
+
+.hero {
+  
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+      
+}
+
+.contact-box {
+    background-color: #89CFF0;
+    padding: 20px;
+    border-radius: 10px;
+    width:1425px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+
+}
+
+.con-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.con-form h2 {
+    margin-bottom: 10px;
+    color: black;
+    font-family:inria serif
+    font-size:15px;
+    }
+	
+.contact-box hr{
+
+    color: black;
+    background-color: black;
+    height: 3px;
+    width: 200px;
+    margin-left:5px;
+    margin-top:-15px;
+}
+.con-form input,
+.con-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+.con-form input:focus,
+.con-form textarea:focus {
+    background-color:#FFFF8F;
+	
+}
+
+ textarea:hover{ 
+ background-color:#FFFF8F;
+
+}
+
+
+.con-form input::placeholder,
+.con-form textarea::placeholder {
+    color: #888;
+}
+
+.con-form textarea {
+    resize: none;
+    height: 100px;
+}
+
+.con-form button {
+    background-color: #FAFA33;
+    color: #333;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.con-form button:hover {
+    background-color: #ff9900;
+}
+
+ 
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.944); 
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    margin-top: 50px;
+    
+}
+
+.footer .footer-section {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 2px;
+}
+
+.footer .footer-section div {
+    max-width: 300px;
+}
+
+.footer .footer-section img {
+    width: 100px;
+    border: 2px solid red;
+    border-radius: 50px;
+}
+
+.footer .footer-section p {
+    font-size: 14px;
+    margin: 10px 0 0 0;
+}
+
+.footer .footer-section p strong {
+    font-size: 16px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.p1 ul {
+    list-style: none;
+    padding-left: 0;
+	
+}
+.p1 a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+	
+}
+ 
+.p1 a:hover {
+    text-decoration: underline;
+}
+
+.copy{
+  color: white;
+  background-color: grey;
+  background-size: cover;
+  padding:6px;
+  text-align: center;
+  bottom: 0px;
+  top:0px;
+}
+
+.info-item{
+text-align:left;
+margin-left:10px;
+margin-top:5px;
+display:flex;
+
+
+}
+.info-item p{
+text-align:center;
+margin-bottom:5px;
+margin-right:5px;
+
+}
+
+.location
+{
+background:url('css-sprite-combined.png') -10px -0px;
+width:96px;
+height:96px;
+zoom: 30%;
+display:inline-block;
+}
+
+.phone
+{
+background:url('css-sprite-combined.png') -116px -0px;
+width:96px;
+height:96px;
+zoom: 30%;
+display:inline-block;
+}
+
+.email
+{
+background:url('css-sprite-combined.png') -222px -0px;
+width:96px;
+height:96px;
+zoom: 30%;
+display:inline-block;
+}
+
+
+</style>
+
+ </head>
+<body>
+ <div>
+        <img src="dog_foot.png" alt="Pet Care Logo" style="position: absolute;left: 0; height: 40px;"> 
+        <img src="dog_foot.png" alt="Pet Care Logo" style="height: 40px; position: absolute; right: 0;">
+    </div>
+<header>
+    <h1 class="hd">PET CARE</h1>
+    
+    <nav>
+        <ul>
+            <li><a href="Home.html">HOME</a></li>
+            <li><a href="Service.html">SERVICES</a></li>
+            <li><a href="About Us.html">ABOUT</a></li>
+            <li><a href="Reviews.html">REVIEWS</a></li>
+        </ul>
+    </nav>
+
+
+</header>
+ 
+
+    <div class="contact-box">
+        <form class="con-form" action="Home.html">
+            <h2>Contact Us</h2>
+		<hr>	
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="text" name="subject" placeholder="Subject" required>
+            <input type="text" name="phone" placeholder="Phone" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" placeholder="Message"></textarea>
+            <button type="submit">Submit Now</button>
+        </form>
+
+    </div>
+      
+<div class="footer">
+    <div class="footer-section">
+        <div>
+            <img src="pet-care.png" alt="Pet Care">
+            <p><strong>P</strong>ets are humanizing. They remind us we have an obligation and responsibility to preserve and nurture and care for all life.</p>
+        </div>
+        
+        <div class="p1">
+            <h3>Have A Question</h3>
+			<ul>
+            <li><a href="Service.html">Services</a></li>
+            <li><a href="Dog Hostel.html">Dog Hostel</a></li>
+            <li><a href="About Us.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+
+
+        <div>
+            
+        <h3>Information</h3>
+                <div class="info-item">
+                    <div class="location"></div><p style="margin-top:10px; margin-right:25px">Pet Care (Pvt) Ltd, 123, 1st Floor, Dalugama, Kelaniya.</p>
+                </div>
+				<br>
+                <div class="info-item">
+                    <div class="phone"></div><p style="margin-top:10px; margin-left:10px">Telephone: 0112 999999 <br>Fax: 0094 112 621 382</p>
+             
+                </div>
+                <br>
+                <div class="info-item">
+                    <div class="email"></div> <p style="margin-top:10px; margin-left:10px">Email: info@petcare.com</p>
+                   
+                </div>
+                
+        </div>        
+        <div>
+
+            <h3>Visit Us</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31692.835058117015!2d79.91207407621102!3d6.977763773318933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2587c5baf676f%3A0x6f8043deac1a29e7!2sKelaniya!5e0!3m2!1sen!2slk!4v1626625691631!5m2!1sen!2slk" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>    
+        </div>
+        
+   </div>
+        
+    <div class="copy">
+    <p >&copy;2023 Pet Care 11600. Designed by Team PETCARE</p>
+    </div>
+  
+
+</body>
+</html>
+
+  	
+
